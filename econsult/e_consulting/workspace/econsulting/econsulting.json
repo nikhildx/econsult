@@ -1,0 +1,117 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Con3Jkys9H\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">eConsulting</span>\",\"col\":12}},{\"id\":\"ESdNql24mK\",\"type\":\"card\",\"data\":{\"card_name\":\"Users\",\"col\":4}},{\"id\":\"1GyPttrhYz\",\"type\":\"card\",\"data\":{\"card_name\":\"Queries\",\"col\":4}},{\"id\":\"wZjZRoUtPN\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}}]",
+ "creation": "2024-08-12 21:52:44.513243",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "eConsulting",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Queries",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Queries",
+   "link_count": 0,
+   "link_to": "Consulting Query Topic",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Query Replies",
+   "link_count": 0,
+   "link_to": "Consulting Query Reply",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Data",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Category",
+   "link_count": 0,
+   "link_to": "Consulting Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Users",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Users",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Experts",
+   "link_count": 0,
+   "link_to": "Consulting Expert",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customers",
+   "link_count": 0,
+   "link_to": "Consulting Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-08-18 18:30:58.657618",
+ "modified_by": "Administrator",
+ "module": "e-Consulting",
+ "name": "eConsulting",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "eConsulting"
+}

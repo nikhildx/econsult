@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "autoname": "format:CQT-.YYYY.-",
+ "creation": "2024-08-12 18:40:39.511436",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "topic_details_section",
+  "title",
+  "description",
+  "column_break_dbww",
+  "category",
+  "expert"
+ ],
+ "fields": [
+  {
+   "fieldname": "topic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Topic Details"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_dbww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Consulting Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expert",
+   "fieldtype": "Link",
+   "label": "Expert",
+   "options": "Consulting Expert"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-18 18:28:37.164951",
+ "modified_by": "Administrator",
+ "module": "e-Consulting",
+ "name": "Consulting Query Topic",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
