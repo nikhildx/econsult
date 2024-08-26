@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:CQT-.YYYY.-",
+ "autoname": "format:CQT-{YYYY}-{######}",
  "creation": "2024-08-12 18:40:39.511436",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -51,7 +51,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-18 18:28:37.164951",
+ "modified": "2024-08-18 19:15:26.657445",
  "modified_by": "Administrator",
  "module": "e-Consulting",
  "name": "Consulting Query Topic",
@@ -71,7 +71,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }

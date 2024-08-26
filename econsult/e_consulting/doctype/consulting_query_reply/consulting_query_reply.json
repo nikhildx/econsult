@@ -7,6 +7,7 @@
  "field_order": [
   "query_reply_section",
   "query_topic",
+  "topic_id",
   "reply",
   "posted_by"
  ],
@@ -34,11 +35,19 @@
    "fieldtype": "Link",
    "label": "Posted By",
    "options": "User"
+  },
+  {
+   "fetch_from": "query_topic.title",
+   "fetch_if_empty": 1,
+   "fieldname": "topic_id",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Query Topic Id"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-18 18:28:43.894526",
+ "modified": "2024-08-19 18:08:38.721044",
  "modified_by": "Administrator",
  "module": "e-Consulting",
  "name": "Consulting Query Reply",
